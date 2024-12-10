@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestação</title>
+ </head>
+ <body bgcolor="#8DA9C4">
+
+    <center><h1>Prestação:</h1></center>
+
+    <script>
+
+        var valor,taxa,tempo,prestacao;
+        v1=parseFloat(prompt("valor do documento:"))
+        v2=parseFloat(prompt("Taxa juros diários"))
+        v3=parseFloat(prompt("Quantidade de dias de atraso"))
+
+
+        res=v1+(v1*(v2/100)*v3);
+
+        alert("Prestação="+res);
+     </script>
+
+
+</body>
+</html>
